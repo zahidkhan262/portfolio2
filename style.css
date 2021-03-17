@@ -11,7 +11,7 @@ a{
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     min-width: 500px;
     height: 100vh;
 }
@@ -66,6 +66,7 @@ nav ul li a:hover{
     .checkbtn{
         display: block;
         color: crimson;
+	margin-right: 50px;
     }
     .checkbtn:hover{
         color: white;
@@ -211,6 +212,7 @@ nav ul li a:hover{
 	left: calc(50% - 40px);
 }
 .skill{
+    width: 100%;
     margin-top: 20px;
     padding-top: 20px;
     background: rgba(0,0,0,0.5);
